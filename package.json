@@ -1,0 +1,23 @@
+{
+  "name": "webpack-typescript-boilerplate",
+  "version": "1.0.0",
+  "main": "dist/bundle.js",
+  "author": "Max Bause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxbause/webpack-typescript-boilerplate"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "terser-webpack-plugin": "^1.2.3",
+    "typescript": "^3.4.5",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-merge": "^4.2.1"
+  },
+  "scripts": {
+    "webpack:dev": "node_modules/.bin/webpack --config webpack.dev.js",
+    "webpack:prod": "node_modules/.bin/webpack --config webpack.prod.js"
+  }
+}
